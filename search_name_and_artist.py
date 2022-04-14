@@ -2,8 +2,8 @@ import spotipy
 import os
 from spotipy.oauth2 import SpotifyClientCredentials
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="ddc88c09165e4cd5949fbba22287d522",
-                                                           client_secret="977d633b95144b3ebd2ed6406ce36bdc"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="Spotify_ID",
+                                                           client_secret="spotify_pass"))
 
 class Search:
 
